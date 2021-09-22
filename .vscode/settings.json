@@ -1,0 +1,9 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.formatOnSave": true,
+  "dart.previewFlutterUiGuides": true,
+  "svg.preview.background": "white"
+}

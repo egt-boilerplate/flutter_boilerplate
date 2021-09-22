@@ -1,0 +1,54 @@
+{
+	"Flutter stateless widget": {
+    "prefix": "stateless",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "/// $1",
+      "class $2 extends StatelessWidget {",
+      "  $3",
+      "  const $2({Key? key$4}) : super(key: key);",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Container(",
+      "      $5",
+      "    );",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Flutter stateless widget"
+  },
+  "Flutter stateful widget": {
+    "prefix": "stateful",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "/// $1",
+      "class $2 extends StatefulWidget {",
+      "  // final Widget child;",
+      "  const $2({Key? key /**, required this.child */}) : super(key: key);",
+      "",
+      "  @override",
+      "  _$2State createState() => _$2State();",
+      "}",
+      "",
+      "class _$2State extends State<$2> {",
+      "  // String xxx = '';",
+      "  @override",
+      "  void initState() {",
+      "    super.initState();",
+      "    // do something",
+      "  }",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Container($5);",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Flutter stateful widget"
+  }
+}
